@@ -1,3 +1,12 @@
+<!--
+*   Data: 21/12/2018
+*   Autor: Thelsandro Costa Antunes
+*   Técnico em Redes de Computadores - CETAM
+*   Cursando Engenharia de Computação - UEA
+*   Gerador de Cupom utilizando o método GET
+*   2ª Versão
+-->
+
 <!DOCTYPE >
 <html xmlns="http://www.w3.org/">
 <head>

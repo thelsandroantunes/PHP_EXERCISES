@@ -1,3 +1,12 @@
+<!--
+*   Data: 21/12/2018
+*   Autor: Thelsandro Costa Antunes
+*   Técnico em Redes de Computadores - CETAM
+*   Cursando Engenharia de Computação - UEA
+*   Formulário Simples de Login utilizando o método POST
+*   2ª Versão
+-->
+
 <!DOCTYPE html>
 <html lang="en" >
 
