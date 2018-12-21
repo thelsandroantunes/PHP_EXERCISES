@@ -1,0 +1,135 @@
+html, body {
+  background: #09f;
+  color: #333;
+  font-family: helvetica, sans-serif;
+}
+
+.c-coupon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #FFF;
+  padding: 24px 128px 24px 64px;
+  border-radius: 4px;
+  transform-origin: 50% 50%;
+}
+.c-coupon:before, .c-coupon:after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 48px;
+  width: 48px;
+  background: #09f;
+  border-radius: 64px;
+  top: 50%;
+}
+.c-coupon:before {
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+.c-coupon:after {
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+.c-coupon__tearaway {
+  display: block;
+  position: absolute;
+  width: 80px;
+  height: 100%;
+  right: 0;
+  top: 0;
+  border-left: 8px dotted #CCC;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+blockquote, pre,address, code, img,
+small, strong, dl, dt, dd, ol, ul, li,h2, h3, h4, h5, h6,p,
+fieldset, form, label, div, span, object,a, tr,td,th
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+/***********************************************/
+/***************** Tag Selector ***********************/
+/***********************************************/
+p{
+	margin: 5px;
+}
+table {
+	background: #ffffff;
+	width: 350px;
+	border: none;
+	margin: 5px;
+}
+input{
+	width: 300px;
+	height: 45px;
+	margin: 5px;
+	padding: 0;
+	padding-left: 15px;
+	border: 1px solid #bbb;
+	font-size: 20px;
+}
+
+select{
+
+	width: 370px;
+	height: 45px;
+	margin: 5px;
+	padding: 0;
+	padding-left: 15px;
+	border: 1px solid #bbb;
+
+}
+
+input:hover{
+	border-color: #0459e2;
+}
+
+/***********************************************/
+/***************** ID Seletor  ******************/
+/***********************************************/
+#main{
+
+	margin: auto;
+	width: 350px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	margin-top: 100px;
+}
+
+
+/***********************************************/
+/*****************Class Selector ****************/
+/***********************************************/
+.button{
+	background-color: #1f447f;
+	color: #ffffff;
+	height: 45px;
+	border: none;
+	width: 320px;
+}
+
+a{
+
+	color: #ffffff;
+
+}
+.g-recaptcha{
+	margin: 10px 0 0 5px ;
+}
