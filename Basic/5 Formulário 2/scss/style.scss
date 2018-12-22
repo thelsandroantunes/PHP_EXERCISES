@@ -1,0 +1,33 @@
+/*---------------------------------*\
+Functions
+\*---------------------------------*/
+@function rem($target) {
+  @return ($target / 16px) * 1rem;
+}
+/*---------------------------------*\
+Base
+\*---------------------------------*/
+body {background: rgba(0,0,0,.05)}
+/*---------------------------------*\
+Layout
+\*---------------------------------*/
+.form {
+  margin-top: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: rem(690px);
+  background-color: #fff;
+}
+form label {margin-bottom: .75rem;}
+.form .accordion-navigation > .content.active {background-color: #fafafa;}
+.f-dropdown input[type="checkbox"] {margin: 0;}
+.f-dropdown label {padding: .5rem;}
+.accordion {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  margin-left: 0;
+}
+/*---------------------------------*\
+Helper classes
+\*---------------------------------*/
+.margin-reset {margin-bottom: 0;}
