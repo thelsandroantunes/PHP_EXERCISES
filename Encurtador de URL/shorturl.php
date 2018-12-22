@@ -4,7 +4,7 @@
 *   Técnico em Redes de Computadores - CETAM
 *   Cursando Engenharia de Computação - UEA
 *   Encurtador de URL, mas sem gerar link aprendido no curso de PHP by Mr.Naeem Hussain
-*   1ª Versão baseado no template index.php de Michael Schwartz (https://codepen.io/michaelsboost/pen/jGRGGB)
+*   1ª Versão baseado no template de Michael Schwartz (https://codepen.io/michaelsboost/pen/jGRGGB)
 -->
 
 <!DOCTYPE>
